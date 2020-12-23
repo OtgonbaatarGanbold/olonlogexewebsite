@@ -1,5 +1,5 @@
 import { Component, createRef } from 'react';
-import img from '../assets/46277591_347018672770622_4188517072734519296_n.jpg'
+import img from '../assets/img/champions.jpg'
 
 class Slider extends Component {
     constructor(props) {
@@ -46,14 +46,14 @@ class Slider extends Component {
             </svg>
             </button>
             <div className="mx-auto" >
-                <div className="flex flex-row items-stretch justify-start space-y-6 md:overflow-hidden md:flex-nowrap md:space-y-0 py-5" ref={this.scroll}>
+                <div className="flex flex-row items-stretch justify-start space-y-6 md:overflow-hidden md:flex-nowrap md:space-y-0 py-5 sm:overflow-hidden sm:flex-nowrap sm:space-y-0" ref={this.scroll}>
                     <div className="flex flex-shrink-0">
                         <a href="https://exe.mn" className="relative group block mx-2">
                             <div className="absolute inset-0 bg-black hidden p-4 opacity-75 group-hover:flex flex-col justify-end text-white cursor-pointer">
                                 <h3 className="text-lg mb-2">Teacher</h3>
                                 <p className="leading-normal select-none">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est assumenda quod libero tempore corrupti harum sint nihil rem doloremque a.</p>
                             </div>
-                            <img src={img} alt={"allo"} className="w-full h-full rounded-3xl"/>
+                            <img src={img} alt={"allo"} className="w-64 h-128 rounded-3xl"/>
                         </a>
                     </div>
                     <div className="flex flex-shrink-0">
@@ -62,7 +62,7 @@ class Slider extends Component {
                                 <h3 className="text-lg mb-2">Teacher</h3>
                                 <p className="leading-normal select-none">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est assumenda quod libero tempore corrupti harum sint nihil rem doloremque a.</p>
                             </div>
-                            <img src={img} alt={"allo"} className="w-full h-full rounded-3xl"/>
+                            <img src={img} alt={"allo"} className="w-64 h-128 rounded-3xl"/>
                         </a>
                     </div>
                     <div className="flex flex-shrink-0">
@@ -71,7 +71,7 @@ class Slider extends Component {
                                 <h3 className="text-lg mb-2">Teacher</h3>
                                 <p className="leading-normal select-none">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est assumenda quod libero tempore corrupti harum sint nihil rem doloremque a.</p>
                             </div>
-                            <img src={img} alt={"allo"} className="w-full h-full rounded-3xl"/>
+                            <img src={img} alt={"allo"} className="w-64 h-128 rounded-3xl"/>
                         </a>
                     </div>
                     <div className="flex flex-shrink-0">
@@ -80,7 +80,7 @@ class Slider extends Component {
                                 <h3 className="text-lg mb-2">Teacher</h3>
                                 <p className="leading-normal select-none">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est assumenda quod libero tempore corrupti harum sint nihil rem doloremque a.</p>
                             </div>
-                            <img src={img} alt={"allo"} className="w-full h-full rounded-3xl"/>
+                            <img src={img} alt={"allo"} className="w-64 h-128 rounded-3xl"/>
                         </a>
                     </div>
                     <div className="flex flex-shrink-0">
@@ -89,7 +89,7 @@ class Slider extends Component {
                                 <h3 className="text-lg mb-2">Teacher</h3>
                                 <p className="leading-normal select-none">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est assumenda quod libero tempore corrupti harum sint nihil rem doloremque a.</p>
                             </div>
-                            <img src={img} alt={"allo"} className="w-full h-full rounded-3xl"/>
+                            <img src={img} alt={"allo"} className="w-64 h-128 rounded-3xl"/>
                         </a>
                     </div>
                 </div>

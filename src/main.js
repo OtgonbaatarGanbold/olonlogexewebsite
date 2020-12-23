@@ -1,10 +1,13 @@
 import Slider from './components/slider';
-
+import Navbar from "./components/Navbar/Navbar";
 
 function Main() {
   
   return (
-    <Slider />
+    <div>
+      <Navbar />
+      <Slider />
+    </div>
   )
   }
 
