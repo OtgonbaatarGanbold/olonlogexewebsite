@@ -1,3 +1,7 @@
+.card {
+    --color-primary: #326EAB;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
