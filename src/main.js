@@ -1,7 +1,7 @@
 import Navbar from "./components/Navbar/Navbar";
 import Links from "./components/Links/Links";
 import EdProgram from "./components/EdProgram/EdProgram";
-import Slider from './components/Sliders/Slider';
+// import Slider from './components/Sliders/Tslider';
 
 function Main() {  
   return (
@@ -9,8 +9,7 @@ function Main() {
       <Navbar />
       <EdProgram />
       <Links />
-      <Links /> 
-      <Slider />
+      {/* <Slider /> */}
     </div>
   )
 }
